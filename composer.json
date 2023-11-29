@@ -1,0 +1,19 @@
+{
+    "name": "deno/hello",
+    "description": "this is a hello world using composer",
+    "autoload": {
+        "psr-4": {
+            "Deno\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Djamil SANE",
+            "email": "dsmoonweb@gmail.com"
+        }
+    ],
+    "require": {
+        "joshtronic/php-loremipsum": "^2.1",
+        "altorouter/altorouter": "^2.0"
+    }
+}
